@@ -32,3 +32,8 @@ console.log("After Accured Interest", accountBalance);
 accountBalance /= 1.5
 console.log("After Depreciation", accountBalance);
 
+// Task 4
+let customerName = "Jimmy Butler"
+let welcomeMessage = "Hello, " + customerName + "These are the best jerseys out there.";
+
+console.log(welcomeMessage);
