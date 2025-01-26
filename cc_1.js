@@ -27,14 +27,14 @@ accountBalance -= 200
 console.log("After Withdraw Made", accountBalance);
 
 accountBalance *= 1.10
-console.log("After Accured Interest", accountBalance);
+console.log("After Accrued Interest", accountBalance);
 
 accountBalance /= 1.5
 console.log("After Depreciation", accountBalance);
 
 // Task 4
 let customerName = "Jimmy Butler"
-let welcomeMessage = "Hello, " + customerName + "These are the best jerseys out there.";
+let welcomeMessage = "Hello, " + customerName + ". These are the best jerseys out there.";
 
 console.log(welcomeMessage);
 
@@ -42,4 +42,8 @@ console.log(welcomeMessage);
 
 let isLoggedIn = true;
 
-if (isLoggedIn) {console.log("User Sucessfully Logged In.")} else {console.log}("User Not Logged In.");
+if (isLoggedIn) {
+    console.log("User Sucessfully Logged In.");
+} else {
+    console.log("User Not Logged In.")
+};
