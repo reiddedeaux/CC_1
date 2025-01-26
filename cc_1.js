@@ -37,3 +37,9 @@ let customerName = "Jimmy Butler"
 let welcomeMessage = "Hello, " + customerName + "These are the best jerseys out there.";
 
 console.log(welcomeMessage);
+
+//Task 5
+
+let isLoggedIn = true;
+
+if (isLoggedIn) {console.log("User Sucessfully Logged In.")} else {console.log}("User Not Logged In.");
