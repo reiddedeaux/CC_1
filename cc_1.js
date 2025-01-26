@@ -15,3 +15,20 @@ var isAvailable = true;
 console.log("Product Name:", productName, "Type:", typeof productName);
 console.log("Product Price:", productPrice, "Type:", typeof productPrice);
 console.log("Is Available:", isAvailable, "Type:", typeof isAvailable);
+
+//Task 3
+let accountBalance = 10000
+console.log("Starting Account Balance",accountBalance);
+
+accountBalance += 400
+console.log("After Deposit Made", accountBalance);
+
+accountBalance -= 200
+console.log("After Withdraw Made", accountBalance);
+
+accountBalance *= 1.10
+console.log("After Accured Interest", accountBalance);
+
+accountBalance /= 1.5
+console.log("After Depreciation", accountBalance);
+
